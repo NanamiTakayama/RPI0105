@@ -1,6 +1,7 @@
 import time
+import datetime
 
 while True:
-	print("Hello IoT from isaax")
-	time.sleep(5)
+	print("Hello IoT from isaax" + str(datetime.datetime.today()) )
+	time.sleep(30)
 
