@@ -3,5 +3,5 @@ import datetime
 
 while True:
 	print("Hello IoT from isaax" + str(datetime.datetime.today()) )
-	time.sleep(30)
+	time.sleep(60*15)
 
